@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Ignore autoprefixer's errors on transition-* properties.",
   "main": "bin/index.js",
-  "bin": {
-    "postcss-ignore-transition-properties": "apt.js"
-  },
   "directories": {
     "example": "example"
   },
