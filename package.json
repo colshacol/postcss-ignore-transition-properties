@@ -1,0 +1,32 @@
+{
+  "name": "postcss-ignore-transition-properties",
+  "version": "1.0.0",
+  "description": "Ignore autoprefixer's errors on transition-* properties.",
+  "main": "bin/index.js",
+  "bin": {
+    "postcss-ignore-transition-properties": "apt.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colshacol/postcss-ignore-transition-properties.git"
+  },
+  "keywords": [
+    "postcss",
+    "transition-property"
+  ],
+  "author": "Colton Colcleasure <colshacol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colshacol/postcss-ignore-transition-properties/issues"
+  },
+  "homepage": "https://github.com/colshacol/postcss-ignore-transition-properties#readme",
+  "dependencies": {
+    "postcss": "^6.0.10"
+  }
+}
